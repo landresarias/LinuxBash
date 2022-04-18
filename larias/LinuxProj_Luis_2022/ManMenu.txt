@@ -1,0 +1,48 @@
+
+Instructions for using this Bash Menu Script.
+
+The name of the bash file is LinuxBash.sh. You can extract it from the LinuxProj_Luis_2022 
+folder (you have to copy the whole folder because it has other scripts linked to it for it 
+to work) and paste it in any other folder. To run it just write ./LinuxBash.sh and that's 
+it, it will show you the menu.
+
+The first thing you will see is the automatic execution of a script that shows the current 
+date and time and another script that sends VS Code a text file that is the manual with 
+information for the use of this menu. Choose an option (number) and play with it!
+
+Option 1 - Weather in a city: type the number 1. It will ask you for the name of the capital 
+city of any country, press enter and then it will show you the result.
+
+Option 2 - Create a website project: type the name of the folder where you want the pattern of 
+the web page to be copied, press enter and the path and directory created with the sample 
+copied inside will be displayed on the screen.
+
+Option 3 - Directory search: you can write the name of the file if it is in the same directory 
+as bash, otherwise write the path and the name of the directory to search for. Press enter, the 
+result shows you everything inside this directory. Example: ODIN or /ODIN/assets.
+
+Option 4 - Make a directory: Write the name of the new directory. Press enter, then it will 
+show you a directory created message.
+
+Option 5 - Delete a directory: Enter the directory name. Press enter, if the directory does 
+not exist it will show you a directory does not exist message. Otherwise it will delete it and 
+show a message directory is deleted.
+
+Option 6 - Make a file: Write the name of the new file. Press enter, then it will show you a 
+new file created message.
+
+Option 7 - Read a file: Write the file name or path plus the file name to search for. Press enter, 
+if the file exists it will show you its content otherwise a message file does not exist.
+
+Option 8 - Enter data into a file: write the name of the file where you want to enter data, press 
+enter, first it will show you the content of the file before entering data, then a message to 
+enter data. Now you can type data and then press enter.
+
+Option 9 - Delete a file: Type the name of the file to delete. Press enter, it will ask you (y) 
+which is yes to delete or (n) no to not delete and the script ends.
+
+Remember that when you manipulate a file you must write its name and extension, otherwise it 
+will give you an error.
+
+You can read the ManMenu.txt file that is inside the LinuxProj_Luis_2022 folder. this is the 
+user manual for this LinuxBash script
